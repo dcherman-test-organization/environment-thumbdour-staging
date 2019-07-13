@@ -22,10 +22,6 @@ expose:
     exposer: Ingress
     http: "true"
 jenkins:
-  Servers:
-    GHE:
-    - Name: GHE
-      Url: https://github.factset.com/api/v3/
     Global:
       EnvVars:
         TILLER_NAMESPACE: kube-system
